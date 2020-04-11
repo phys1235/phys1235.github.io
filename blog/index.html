@@ -9,8 +9,7 @@ title: PHYS 1235 Blog
 <ul class="posts">
   {% assign sorted_posts = site.posts | reverse %}
   {% for post in sorted_posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; 
-      <a href="{{ post.url }}" title="{{ post.title }}" id='link'>{{ post.title }}</a></li>
+    <li><span>{{ post.date | date_to_string }}</span> &raquo;<a href="{{ post.url }}" title="{{ post.title }}" id='link'>{{ post.title }}</a></li>
   {% endfor %}
     
 </ul>
