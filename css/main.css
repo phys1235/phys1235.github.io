@@ -36,3 +36,16 @@ ul.posts li { list-style: none; }
     padding-right: 100px;
     padding-bottom: 50px;
 }
+
+
+.bluehighlight{
+    color : blue;
+}
+
+.orangehighlight{
+    color: orange;
+}
+
+.greenhighlight{
+    color : rgb(45, 172, 45);
+}
