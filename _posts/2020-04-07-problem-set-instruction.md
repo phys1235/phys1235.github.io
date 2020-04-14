@@ -9,6 +9,7 @@ solution for each problem.
 
 Submit your answers in any digital format *(pdf,docx,ppt,jpeg,etc..)* using the link
 provided on the [lecture notes](https://phys1235.github.io/lecture-notes/) section. If your class in PHYS 1235 is Tuesday and Thursday choose the link in TTh column. If your class in PHYS 1235 is Monday and Wednesday choose the appropriate link in the MW column.
-![test test test]({{site.url}}/assets/test.png)
+
+![test test test]({{site.url}}/assets/duedates.JPG)
 
 #### [Next: Lecture Notes](/lecture-notes/)
