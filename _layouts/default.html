@@ -4,7 +4,13 @@
     <title>{{ page.title }}</title>
     
     <link rel="stylesheet" type="text/css" href="/css/main.css">
-  
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
+    <script>
+    $(document).ready( function () {
+        $('#myTable').DataTable();
+    } );
+    </script>
   </head>
 
 
@@ -14,7 +20,7 @@
 <li><a href="/">Home</a></li>
 <li><a href="/syllabus">Syllabus</a></li>
 <li><a href="/lecture-notes">Lecture Notes</a></li>
-<!--<li><a href="/studymaterials">Study Materials</a></li>-->
+<!---<li><a href="/studymaterials">Submission List</a></li>-->
 <li><a href="/blog">Blog</a></li>
 </ul>
     </nav>
@@ -31,5 +37,4 @@
    </ul>
   </footer>
   </body>
-
 </html>
